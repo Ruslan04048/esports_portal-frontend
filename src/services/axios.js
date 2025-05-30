@@ -2,7 +2,7 @@ import axios from 'axios'
 import { useAuthStore } from "@/stores/auth" // Импортируем хранилище для авторизации
 
 const api = axios.create({
-  baseURL: 'http://127.0.0.1:8000/api',
+  baseURL: 'http://ruslad71.beget.tech/api',
   withCredentials: true // Позволяет работать с cookies
 })
 
